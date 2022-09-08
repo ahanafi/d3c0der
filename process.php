@@ -1,7 +1,6 @@
 <?php
 require_once 'curl.php';
 
-
 if (isset($_POST['process'])) {
     $files = $_FILES['files']['name'];
 
@@ -46,7 +45,7 @@ if (isset($_POST['process'])) {
         }
     }
 
-    echo "Done! <br>";
+    echo "Done! Please copy all files that have been decoded in the decoded-files directory...";
 
 } else {
     header('Location: index.php');

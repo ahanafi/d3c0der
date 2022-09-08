@@ -1,4 +1,4 @@
 .idea
 
-decoded-files/*
-tmp-files/*
+decoded-files/*.php
+tmp-files/*.txt
